@@ -8,6 +8,8 @@
 - reactjs v18
 - react-router-dom v6.8
 - draft-js
+- threejs
+- framer-motion
 - react-type-animation 
 
 ## 프로젝트 실행
@@ -15,10 +17,19 @@
 `npm start` 커맨드를 사용하시면 됩니다.
 여기를 [http://localhost:3000](http://localhost:3000) 열면 작동하실 겁니다.
 
+## 배포 및 아키텍쳐
+![img](./image1.png)
+- github page 로 배포
+- 백엔드는 Railway 배포 
+- 백엔드 프레임워크 : FastAPI 사용
+- DB 없음 
+
+
 ## 메인 화면 
 - react typing animation 추가
-- MUI 이미지 리스트 추가
-
+- threejs 추가
+- Responsive Grid 추가
+- framer-motion 추가
 
 ## 큐알코드 제너레이터
 검색창에 원하는 문자를 입력하고 버튼을 누르면 큐알코드가 생성됩니다.
